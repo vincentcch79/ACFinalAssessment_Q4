@@ -12,6 +12,8 @@
 		9F35CAEB1D538882000A10A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F35CAE91D538882000A10A3 /* Main.storyboard */; };
 		9F35CAED1D538882000A10A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F35CAEC1D538882000A10A3 /* Assets.xcassets */; };
 		9F35CAF01D538882000A10A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F35CAEE1D538882000A10A3 /* LaunchScreen.storyboard */; };
+		9F35CAFB1D538927000A10A3 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35CAF91D538927000A10A3 /* CustomCell.swift */; };
+		9F35CAFC1D538927000A10A3 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F35CAFA1D538927000A10A3 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9F35CAEC1D538882000A10A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F35CAEF1D538882000A10A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F35CAF11D538882000A10A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F35CAF91D538927000A10A3 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		9F35CAFA1D538927000A10A3 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9F35CAEC1D538882000A10A3 /* Assets.xcassets */,
 				9F35CAEE1D538882000A10A3 /* LaunchScreen.storyboard */,
 				9F35CAF11D538882000A10A3 /* Info.plist */,
+				9F35CAF91D538927000A10A3 /* CustomCell.swift */,
+				9F35CAFA1D538927000A10A3 /* CustomCell.xib */,
 			);
 			path = ACFinalAssessment_Q4;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				9F35CAF01D538882000A10A3 /* LaunchScreen.storyboard in Resources */,
 				9F35CAED1D538882000A10A3 /* Assets.xcassets in Resources */,
+				9F35CAFC1D538927000A10A3 /* CustomCell.xib in Resources */,
 				9F35CAEB1D538882000A10A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F35CAE81D538882000A10A3 /* ViewController.swift in Sources */,
+				9F35CAFB1D538927000A10A3 /* CustomCell.swift in Sources */,
 				9F35CAE61D538882000A10A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
